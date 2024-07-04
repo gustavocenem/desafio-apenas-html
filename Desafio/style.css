@@ -1,0 +1,222 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #0049a8;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #cdc1ff;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(139, 104, 255);
+    height: 80px;
+    display: flex;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(139, 104, 255);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo { margin-left: 7px; margin-top: 7px; height: 65px }
+
+.texto-header { margin-left: 20px; margin-top: 20px; color: white; }
+
+.h1-consultoria {
+    font-weight: normal;
+    text-align: center;
+}
+
+.h1-consultoria-enfeite {
+    color: black;;
+    font-weight: bold;
+    border-color: rgb(139, 104, 255);
+    border-style: outset;
+    border-radius: 5px;
+}
+
+.sucessos {
+    display: flex;
+    margin-left: 17%;
+    margin-bottom: 20px;
+}
+
+.sucessos-fotos {
+    padding: 10px;
+}
+
+.h1-sucesso {
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.sobre {
+    display: flex;
+}
+
+.texto-sobre {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.div-sobre {
+    display: flex;
+}
+
+.parte-um {
+    text-align:justify;
+    margin-right: 40px;
+    margin-left: 50px;
+}
+
+.parte-dois {
+    text-align:justify;
+    margin-right: 40px;
+}
+
+.parte-tres {
+    text-align:justify;
+    margin-right: 50px;
+}
+
+.precos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-atendimento {
+    border: solid 1px black;
+    border-radius: 3px;
+    border-spacing: 0;
+}
+
+
+.table-atendimento thead th {
+    background-color: rgb(139, 104, 255);
+    color: white;
+    
+}
+
+.table-atendimento tbody {
+    text-align: center;
+    
+}
+
+.table-atendimento tfoot {
+    background-color: #cdc1ff;
+}
+
+.table-atendimento tbody tr:nth-child(even) td {
+    background-color: rgb(227, 227, 227);
+}
+
+.table-atendimento tbody tr:hover td {
+    background-color: rgb(185, 185, 185);
+}
+
+.form-contato {
+    background-color: rgb(116, 74, 255);
+    width: 350px;
+    margin-left: 17%;
+    padding: 45px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.form-contato h1 {
+    color: white;
+    text-transform:uppercase;
+    margin-top: 0;
+}
+
+.form-padrao {
+    outline: none;
+    color: #000000;
+    padding: 5px 10px;
+    font-weight: 200;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 10px auto 0;
+    width: 90%;
+}
+
+.textarea-contact {
+    height: 100px;
+    width: 91%;
+    resize: none;
+}
+
+.informacoes-contato {
+    background-color: rgb(116, 74, 255);
+    width: 350px;
+    margin-left: 10%;
+    padding: 45px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.redes-sociais img {
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.informacoes-redes-sociais {
+    margin: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.informacoes-redes-sociais a {
+    text-decoration: none;
+    color: white;
+}
